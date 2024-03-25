@@ -1,0 +1,26 @@
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {
+    .containerImagem img {
+        width: 100%;
+    }
+    
+}
+
+.iframe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iframe iframe {
+    width: 90%;
+}
